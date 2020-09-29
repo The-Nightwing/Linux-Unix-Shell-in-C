@@ -1,0 +1,118 @@
+history -a
+mkdir oer
+ls
+cd ..
+cat -n description.txt
+ls
+pwd
+echo "Hello World"
+exit
+date -u
+date
+date -u
+date -u
+date -u
+date -R
+date -R
+date -u
+date
+exit
+rm
+rm
+rm
+rm
+rm
+rm
+r
+rm
+rm
+rm
+cd -P
+cd -P
+ls
+ls
+ls
+rm
+rm op
+history
+history
+exit
+l
+ls
+pwd
+pwd --help
+pwd --help
+ls
+mkdir opera1
+ls
+pwd -P
+cd
+cd ~
+rm -r aba
+mkdir shivam
+rm shivam
+cd
+cd -P
+cd ~
+rm
+date
+date -u
+date -R
+date
+rm
+mkdir
+rm
+rm
+rm oppppp
+rm opppp
+exit
+cd --help
+cd --help
+mkdir --help
+mkdir --help
+mkdir help
+rm help
+rm ab
+mkdir test
+rm test
+cat remove.c
+cat description.txt
+cat -n remove.c
+cat remove.c
+cat remove.c
+mkdir hellp
+rm hellp
+mkdir loli
+rm -f loli
+rm yup
+rm rm
+        int del = unlink(argv[i]);
+mkdir oer
+rm oer
+rm oer
+rm oer
+rm op
+mkdir yoyo
+rm yoyo
+cd --help
+mkdir --help
+ls
+cd yoyo
+cd .
+history
+rm yoyo
+rm -r yoyo
+rm -r yoyo
+rm -r yoyo
+rm yoyo
+rm -f ab.txt ab1.txt
+rm -r yup
+rm -r yoyo
+rm -r yoyo
+rm -b ui.txt
+rm -b ui.txt
+ls
+ls
+exit
+ls
+rm 

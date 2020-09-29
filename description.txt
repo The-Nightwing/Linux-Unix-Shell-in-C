@@ -1,0 +1,20 @@
+ls:
+    flags used: ls -1, ls -a
+
+echo:
+    flags used: -n, -E 
+
+rm:
+    flags used: -r, -f
+
+cat:
+    flags used: -n, -E
+
+history:
+    flags used: -a, -c
+
+mkdir:
+    flags used: --help, -v
+
+date:
+    flags used: -u, 
