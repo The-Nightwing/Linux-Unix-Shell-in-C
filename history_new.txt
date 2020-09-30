@@ -1,27 +1,43 @@
-history
-history -a
-history
-history -a
-history
-history
-history -a
-history
 cd ..
+date
+date -u
+date -R
+mkdir hello\ world
+rm -r hello\ world
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+cd ..
+ls
+cd shel
+cd shell
+ls
+cd ..
+cd ..
+ls
+cd desktop
+cd op
+cd shell
+mkdir hello
+cd ..
+mkdir hello
+ls
+cd shell
+ls
+mkdir hello\ world
+ls
+make
 pwd
-pwd
-history
-history
-history
-history -a
-history
-history -a
-history
+pwd -P
+pwd --help
+cat -n remove.c
+ls
 exit
-op
-mkdir y1
-mkdir y1/y2
-mkdir y1\ y2
-rm y1\ y2
-rm -r y1\ y2
-rm -r y1/y2
-rm -r y1
+cat
+cat
+code .

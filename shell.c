@@ -18,7 +18,7 @@ int main(){
     int counter=0;
     while(1){
         FILE *f1;
-        f1 = fopen("history_new.txt","a");
+        f1 = fopen("/mnt/c/users/verma/desktop/shell/history_new.txt","a");
         char dir[1024];
         printf("\033[1;32m"); 
         printf("%s","shivi_020@DESKTOP-IAF8LGN:");
@@ -36,13 +36,8 @@ int main(){
         }
 
         else if(command[0]=='p' && command[1]=='w' && command[2]=='d'){
-            if(command[4]=='-' && command[5]=='-' && command[6]=='h' && command[7]=='e'){
-                FILE *f1 = fopen("pwd_help.txt","r");
-                char buf[100];
-                while(fgets(buf,sizeof(buf),f1)){
-                    printf("%s",buf);
-                }
-                printf("\n");
+            if(command[4]=='-' && command[5]=='-' && command[6]=='h' && command[7]=='e' && command[8]=='l' && command[9]=='p'){
+                printf("pwd: pwd [-LP]\nPrint the name of the current working directory.\nOptions:\n-L        print the value of $PWD if it names the current working\ndirectory\n-P        print the physical directory, without any symbolic links\n");
             }
             else{
              printf("%s \n",getcwd(dir,1024));
@@ -51,7 +46,7 @@ int main(){
         
         else if(command[0]=='h' && command[1]=='i' && command[2]=='s' && command[3]=='t' && command[4]=='o' && command[5]=='r' && command[6]=='y'){
            if(command[8]=='-' && command[9]=='c'){
-                f1 = fopen("history_new.txt","w");
+                f1 = fopen("/mnt/c/users/verma/desktop/shell/history_new.txt","w");
                 fclose(f1);
            }
            else if(command[8]=='-' && command[9]=='a'){
@@ -60,7 +55,7 @@ int main(){
            else{
                printf("%s","hello");
                char data[200];
-               f1 = fopen("history_new.txt","r");
+               f1 = fopen("/mnt/c/users/verma/desktop/shell/history_new.txt","r");
                     int i=0;
                     while(fgets(data,sizeof(data),f1)){
                         printf("%d) %s",i,data);
@@ -122,12 +117,7 @@ int main(){
                     chdir(getenv("HOME"));
                 }
                 else if(strcmp(commands[1],"--help")==0){
-                    FILE *f1 = fopen("cd_help.txt","r");
-                    char buf[100];
-                    while(fgets(buf,sizeof(buf),f1)){
-                    printf("%s",buf);
-                }
-                printf("\n");
+                    printf("cd: cd [-L|[-P [-e]] [-@]] [dir] \n Change the shell working directory. \n Change the current directory to DIR.  The default DIR is the value of the \n HOME shell variable.\n");
                 }
                 else{
                 if(commands[1][strlen(commands[1])-1]=='\\'){

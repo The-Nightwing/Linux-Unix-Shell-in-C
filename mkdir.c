@@ -10,12 +10,7 @@ int main(int argc, char* argv[])
     int check; 
    
     if(strcmp(argv[1],"--help") == 0){
-        FILE *f1 = fopen("mkdir_help.txt","r");
-        char buf[100];
-    while(fgets(buf,sizeof(buf),f1)){
-        printf("%s",buf);
-    }
-    printf("\n");
+        printf("Usage: mkdir [OPTION]... DIRECTORY...\nCreate the DIRECTORY(ies), if they do not already exist.\n");
     }
 
     else if(strcmp(argv[1],"-v")==0){
