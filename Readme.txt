@@ -86,39 +86,4 @@ System Calls Used:
     9)mkdir(): creates a new directory of the name passed in it as argument.
     10)getcwd(): used to get current working directory
     11)exit(): exits out of the program.
-
-
-
-Test inputs:
-    >>mkdir hello
-    >>mkdir hello\ world
-    >>rm -r hello\ world
-    >>cat history_new.txt description.txt
-    >>history
-    >>ls
-    >>cd ..
-    >>ls
-    >>cd shell
-    >>cat -n history_new.txt
-    >>history -c
-    >>pwd 
-    >>pwd -P
-    >>pwd --help
-    >>cd --help
-    >>history -a
-    >>cd ..
-    >>cd shell
-    >>date
-    >>date -u
-    >>date -R
-    >>history
-    >>cat -E description.txt
-    >>echo -n hello world
-    >>echo -E hello world
-    >>history
-    >>ls -1
-    >>ls -m
-    >>mkdir hello
-    >>mkdir hello/hi
-    >>history
     >>exit
