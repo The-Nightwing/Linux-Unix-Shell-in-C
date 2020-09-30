@@ -10,3 +10,11 @@ make_exec:
 then:
 	gcc shell.c
 	./a.out
+
+clean:
+	rm ls
+	rm cat
+	rm remove
+	rm mkdir
+	rm date
+	rm *out

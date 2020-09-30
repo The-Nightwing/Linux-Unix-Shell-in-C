@@ -1,0 +1,4 @@
+history 
+history -a cd
+history
+history -a cd cd cd 
