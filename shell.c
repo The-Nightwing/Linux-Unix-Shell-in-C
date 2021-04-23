@@ -162,7 +162,6 @@ int main(){
                 for(int i=0;i<counter;i++){
                     argv[i] = commands[i];
                 }
-                //printf("%s",getcwd(dir,1024));
                 execvp(strcat(path,"/ls"),argv);
                 }
                 else{
@@ -211,7 +210,6 @@ int main(){
                     argv[i] = commands[i];
                 }
                 argv[counter+1]=NULL;
-                //printf("%s",getcwd(dir,1024));
                 execvp(strcat(path,"/date"),argv);
                 }
                 else{
